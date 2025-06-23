@@ -1,0 +1,22 @@
+[
+  {"id":1,"question":"Who hit the home run in Game 5 to send the Yankees to the World Series in 2024?","options":["Giancarlo Stanton","Juan Soto","Derek Jeter","Aaron Judge"],"correctAnswer":"Juan Soto"},
+  {"id":2,"question":"Which Yankees pitcher threw a perfect game in 1998?","options":["David Cone","Andy Pettitte","Roger Clemens","Mariano Rivera"],"correctAnswer":"David Cone"},
+  {"id":3,"question":"In which season did Aaron Judge set the Yankees single-season home run record?","options":["2016","2017","2022","2023"],"correctAnswer":"2022"},
+  {"id":4,"question":"Who won the AL MVP as a Yankee in 2022?","options":["Gleyber Torres","Aaron Judge","Didi Gregorius","Giancarlo Stanton"],"correctAnswer":"Aaron Judge"},
+  {"id":5,"question":"Who is known as the Yankees' all-time saves leader?","options":["Mariano Rivera","Aroldis Chapman","David Robertson","Zack Britton"],"correctAnswer":"Mariano Rivera"},
+  {"id":6,"question":"How many World Series have the Yankees won?","options":["7","3","5","27"],"correctAnswer":"27"},
+  {"id":7,"question":"Which Astro infielder did Yankee fans famously boo in 2017?","options":["Carlos Correa","David Ortiz","Clint Frazier","José Altuve"],"correctAnswer":"José Altuve"},
+  {"id":8,"question":"Who succeeded Joe Girardi as Yankees manager in 2018?","options":["Aaron Boone","Joe Torre","Terry Francona","Alex Cora"],"correctAnswer":"Aaron Boone"},
+  {"id":9,"question":"Which Yankee outfielder hit 59 home runs in the 2017 season?","options":["Giancarlo Stanton","Aaron Judge","Brett Gardner","Gary Sánchez"],"correctAnswer":"Giancarlo Stanton"},
+  {"id":10,"question":"What uniform number does Aaron Judge wear?","options":["99","27","2","Both 99 and 27"],"correctAnswer":"99"},
+  {"id":11,"question":"Who holds the MLB career home run record?","options":["Barry Bonds","Hank Aaron","Babe Ruth","Alex Rodriguez"],"correctAnswer":"Barry Bonds"},
+  {"id":12,"question":"Who was named World Series MVP in 2016?","options":["Kris Bryant","Ben Zobrist","Addison Russell","Jake Arrieta"],"correctAnswer":"Ben Zobrist"},
+  {"id":13,"question":"Which pitcher threw a perfect game on Father’s Day, 2012?","options":["Philip Humber","Roy Halladay","Matt Cain","Félix Hernández"],"correctAnswer":"Philip Humber"},
+  {"id":14,"question":"Who was the first African American inducted into the Baseball Hall of Fame?","options":["Jackie Robinson","Satchel Paige","Hank Aaron","Willie Mays"],"correctAnswer":"Jackie Robinson"},
+  {"id":15,"question":"Which team won the inaugural World Baseball Classic in 2006?","options":["Japan","USA","Dominican Republic","Cuba"],"correctAnswer":"Japan"},
+  {"id":16,"question":"Who won the 2023 World Series?","options":["Texas Rangers","Arizona Diamondbacks","Houston Astros","Atlanta Braves"],"correctAnswer":"Texas Rangers"},
+  {"id":17,"question":"Who led MLB in batting average in 2023?","options":["Luis Arraez","Mookie Betts","Shohei Ohtani","Trea Turner"],"correctAnswer":"Luis Arraez"},
+  {"id":18,"question":"Which pitcher threw a no-hitter on June 28, 2023?","options":["Domingo Germán","Max Scherzer","Gerrit Cole","Justin Verlander"],"correctAnswer":"Domingo Germán"},
+  {"id":19,"question":"Who is MLB’s all-time hits leader?","options":["Pete Rose","Ty Cobb","Derek Jeter","Ichiro Suzuki"],"correctAnswer":"Pete Rose"},
+  {"id":20,"question":"Which franchise owns the most World Series titles?","options":["New York Yankees","St. Louis Cardinals","San Francisco Giants","Los Angeles Dodgers"],"correctAnswer":"New York Yankees"}
+]

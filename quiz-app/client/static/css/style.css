@@ -1,0 +1,24 @@
+/* allow page scroll and position VANTA behind */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;        /* ← allow scrolling */
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.vanta-bg {
+  position: fixed;       /* ← pin background */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;           /* ← behind everything */
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;            /* ← above the VANTA canvas */
+}
