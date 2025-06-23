@@ -106,3 +106,32 @@
     };
   }
 })();
+document.addEventListener('DOMContentLoaded', () => {
+  const audio  = document.getElementById('bg-music');
+  const toggle = document.getElementById('music-toggle');
+
+  // restore saved state (default = paused)
+  const wasPlaying = localStorage.getItem('musicPlaying') === 'true';
+
+  function updateButton() {
+    toggle.textContent = audio.paused ? '🔇' : '🔊';
+  }
+
+  // if it was playing last time, start it now
+  if (wasPlaying) {
+    audio.play().catch(()=>{/* autoplay may be blocked until user interacts */});
+  }
+  updateButton();
+
+  // toggle on button click
+  toggle.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play();
+      localStorage.setItem('musicPlaying', 'true');
+    } else {
+      audio.pause();
+      localStorage.setItem('musicPlaying', 'false');
+    }
+    updateButton();
+  });
+});
