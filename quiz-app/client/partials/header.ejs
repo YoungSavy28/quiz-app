@@ -1,0 +1,30 @@
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+      <!-- Brand -->
+      <a class="navbar-brand me-3" href="/">Quiz App</a>
+
+      <!-- Profile dropdown -->
+      <div class="dropdown">
+        <a
+          class="text-white text-decoration-none d-flex align-items-center dropdown-toggle"
+          href="#"
+          id="profileDropdown"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="/static/images/user-icon.jpg"
+            width="30" height="30"
+            class="rounded-circle me-2"
+          />
+          <%= user.username %>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+          <li><a class="dropdown-item" href="/leaderboard">Leaderboard</a></li>
+          <li><a class="dropdown-item" href="/logout">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
