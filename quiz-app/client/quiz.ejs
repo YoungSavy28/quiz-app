@@ -20,7 +20,7 @@
     rel="stylesheet"
   />
 
-  <!-- Your custom styles (imports Poppins too) -->
+  <!-- Your custom styles -->
   <link rel="stylesheet" href="/static/css/style.css" />
 
   <!-- Bootstrap JS Bundle -->
@@ -30,7 +30,6 @@
   ></script>
 
   <style>
-    /* Ensure this page uses Poppins */
     body, h2, .btn, .option-btn {
       font-family: 'Poppins', sans-serif !important;
     }
@@ -51,13 +50,20 @@
       <div class="col-12 col-sm-10 col-md-8 col-lg-6">
         <div class="card bg-transparent border-0 text-center">
           <div class="card-body">
-            <div id="timer" class="mb-3 fs-4 text-white">
-              Time: <span id="time-left">30s</span>
-            </div>
-            <h2 id="question-text" class="mb-4 text-white">
-              Loading question…
-            </h2>
 
+            <!-- Question card with blue background -->
+            <div class="card bg-primary text-white mb-4 shadow-lg">
+              <div class="card-body">
+                <div id="timer" class="fs-5 mb-2">
+                  Time: <span id="time-left">30s</span>
+                </div>
+                <h2 id="question-text" class="mb-0 fs-4">
+                  Loading question…
+                </h2>
+              </div>
+            </div>
+
+            <!-- Answer options -->
             <div id="options" class="btn-group-vertical w-100" role="group">
               <button class="btn btn-primary btn-lg mb-2 option-btn"></button>
               <button class="btn btn-primary btn-lg mb-2 option-btn"></button>
@@ -65,6 +71,7 @@
               <button class="btn btn-primary btn-lg mb-2 option-btn"></button>
             </div>
 
+            <!-- Next button -->
             <button
               id="next-btn"
               class="btn btn-secondary mt-4"
@@ -78,7 +85,7 @@
     </div>
   </div>
 
-  <!-- Background music + toggle now at bottom-right -->
+  <!-- Background music -->
   <audio id="bg-music" loop>
     <source src="/static/music/DTMF.mp3" type="audio/mpeg" />
   </audio>
